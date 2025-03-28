@@ -1,0 +1,83 @@
+/* Style for input fields */
+#item-box {
+  width: 50%; /* Make the input field width 100% */
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-left: 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+#item-box:focus {
+  outline: none;
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.mb-2 {
+  margin-bottom: 10px; /* Add margin to create space */
+  padding-bottom: 50px;
+  margin-left: -10px;
+  display: flex; /* Add this line */
+  flex-direction: column; /* Add this line */
+  align-items: center; /* Add this line */
+  margin-top: 20px;
+  
+}
+
+.autocomplete {
+  position: relative;
+  background-color: white;
+  border: 5px solid #ccc;
+  max-height: 350px; /* Set maximum height for the scroll */
+  overflow-y: auto; /* Enable vertical scroll if needed */
+  z-index: 1;
+  width: 50%;
+}
+
+/* Style for individual search results */
+.search-result {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.search-result:hover {
+  background-color: #f4f4f4;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+}
+
+.input-group-append {
+  padding-top: 5px;
+  margin-left: 20;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+/* Add background color to the title */
+.title-bg {
+background-color: brown; /* Change this to your desired color */
+color: white; /* Set the text color to white for better contrast */
+padding: 10px; /* Add some padding for better spacing */
+}
+
+/* Style for the "Search For Material" button */
+.search-button {
+background-color: #28a745; /* Green background color */
+color: white; /* White text color */
+border: none; /* No border */
+padding: 10px 20px; /* Padding for the button */
+font-size: 1rem; /* Font size */
+cursor: pointer; /* Cursor style */
+transition: background-color 0.3s ease; /* Smooth transition */
+margin-top: 10px;
+}
+
+.search-button:hover {
+background-color: #218838; /* Darker green on hover */
+}
+

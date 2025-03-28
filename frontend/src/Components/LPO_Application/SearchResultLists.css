@@ -1,0 +1,11 @@
+/* SearchResultLists.css */
+
+.search-result {
+    padding: 8px; /* Add padding for better spacing */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .search-result:hover {
+    background-color: #f0f0f0; /* Change background color on hover for better UX */
+  }
+  

@@ -1,0 +1,41 @@
+/* Base Styles */
+.container1 {
+  width: 100%;
+  max-width: 1200px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  border-radius: 8px;
+  border: 4px solid black;
+  margin: 0 auto; /* Center the container */
+}
+
+/* Add this wrapper to center the container */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Add margin-left to move the table to the left */
+.table-section-left {
+  margin-left: -44px; /* Adjust this value as needed */
+}
+
+/* Print Styling */
+@media print {
+  .container1 {
+    margin: 0;
+    border: none;
+    box-shadow: none;
+  }
+
+  .submit-button-container {
+    display: none;
+  }
+
+  .table-section-left {
+    margin-left: -60px; /* Reset margin for print */
+  }
+}

@@ -1,0 +1,15 @@
+.search-result-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .result-box {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 10px;
+    margin: 5px;
+    width: 200px; /* Set width of each box */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    
+  }
+  

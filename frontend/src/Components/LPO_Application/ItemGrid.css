@@ -1,0 +1,252 @@
+/* ItemGrid.css */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  margin-top: 1px;
+  width: 100%;
+  border: 2px solid black;
+  margin-top: -45px;
+  margin-left: -4px;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.grid-item.erp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.grid-item.itc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.grid-item.itu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.grid-item.qty {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.grid-item.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.grid-item.discount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.grid-item.vat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.grid-item.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+/* Style for the placeholders */
+.erp-text{
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.erp-input {
+  color: red; /* Color for ERP Code placeholder */
+  font-size: 1rem; /* Adjust the font size */
+  width: 30%; /* Adjust the width of the placeholder */
+  height: 2.5rem; /* Adjust the height of the placeholder */
+  margin-left: 10px;
+  margin-top: 20px;
+  
+}
+
+.itc-text {
+  margin-top: 10px;
+  margin-left: 120px;
+}
+
+.item-description-input {
+  color: red; /* Color for Item Code Description placeholder */
+  font-size: 1rem; /* Adjust the font size */
+  width: 105%; /* Adjust the width of the placeholder */
+  height: 2.5rem; /* Adjust the height of the placeholder */
+  margin-top: 5px;
+}
+
+.itu-text {
+  margin-top: 10px;
+  margin-left: 245px;
+}
+
+.item-unit-input {
+  color: red; /* Color for Item Code Unit placeholder */
+  font-size: 1rem; /* Adjust the font size */
+  width: 15%; /* Adjust the width of the placeholder */
+  height: 2.5rem; /* Adjust the height of the placeholder */
+  float: right;
+  margin-right: 60px;
+  margin-top: 5px;
+}
+
+.qty-text{
+  margin-left: 130px;
+}
+
+.item-qty-input {
+  color: red; /* Color for ERP Code placeholder */
+  font-size: 1rem; /* Adjust the font size */
+  width: 30%; /* Adjust the width of the placeholder */
+  height: 2.5rem; /* Adjust the height of the placeholder */
+  margin-left: 135px;
+  margin-top: 5px;
+}
+
+.price-text {
+  margin-left: 250px;
+}
+
+.item-price-input {
+  color: red; /* Color for Item Code Unit placeholder */
+  font-size: 1rem; /* Adjust the font size */
+  width: 50%; /* Adjust the width of the placeholder */
+  height: 2.5rem; /* Adjust the height of the placeholder */
+  margin-left: 180px;
+  margin-top: 5px;
+}
+
+.category-text {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.item-category-input {
+  color: red; /* Color for ERP Code placeholder */
+  font-size: 1rem; /* Adjust the font size */
+  width: 45%; /* Adjust the width of the placeholder */
+  height: 2.5rem; /* Adjust the height of the placeholder */
+  margin-left: 10px;
+  margin-top: 25px;
+}
+
+.discount-text{
+  margin-left: 5px;
+}
+.item-discount-input {
+  color: red; /* Color for ERP Code placeholder */
+  font-size: 1rem; /* Adjust the font size */
+  width: 30%; /* Adjust the width of the placeholder */
+  height: 2.5rem; /* Adjust the height of the placeholder */
+  margin-left: 10px;
+  margin-top: 30px;  
+}
+
+.disVal-text {
+  margin-left: 140px;
+}
+
+.item-disVal-input {
+  color: red; /* Color for Item Code Unit placeholder */
+  font-size: 1rem; /* Adjust the font size */
+  width: 50%; /* Adjust the width of the placeholder */
+  height: 2.5rem; /* Adjust the height of the placeholder */
+  margin-left: 100px;
+  margin-top: 5px;
+}
+
+.disTot-text {
+  margin-left: 225px;
+}
+
+.item-disTot-input {
+  color: red; /* Color for Item Code Unit placeholder */
+  font-size: 1rem; /* Adjust the font size */
+  width: 50%; /* Adjust the width of the placeholder */
+  height: 2.5rem; /* Adjust the height of the placeholder */
+  float: right;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.vat-text{
+  margin-left: 5px;
+}
+.item-vat-input {
+  color: red; /* Color for ERP Code placeholder */
+  font-size: 1rem; /* Adjust the font size */
+  width: 30%; /* Adjust the width of the placeholder */
+  height: 2.5rem; /* Adjust the height of the placeholder */
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.vatVal-text {
+  margin-left: 155px;
+}
+
+.item-vatVal-input {
+  color: red; /* Color for Item Code Unit placeholder */
+  font-size: 1rem; /* Adjust the font size */
+  width: 50%; /* Adjust the width of the placeholder */
+  height: 2.5rem; /* Adjust the height of the placeholder */
+  margin-left: 100px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.total-text {
+  margin-left: 250px;
+}
+
+.item-total-input {
+  color: red; /* Color for Item Code Unit placeholder */
+  font-size: 1rem; /* Adjust the font size */
+  width: 50%; /* Adjust the width of the placeholder */
+  height: 2.5rem; /* Adjust the height of the placeholder */
+  float: right;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+
+/* Style for the "Search For Material" button */
+.select-button {
+  background-color: #28a745; /* Green background color */
+  color: white; /* White text color */
+  border: none; /* No border */
+  padding: 10px 20px; /* Padding for the button */
+  font-size: 1rem; /* Font size */
+  cursor: pointer; /* Cursor style */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  margin-top: 10px;
+  margin-left: 510px;
+  margin-bottom: 10px;
+}
+
+.select-button:hover {
+  background-color: #09130b; /* Darker green on hover */
+}
